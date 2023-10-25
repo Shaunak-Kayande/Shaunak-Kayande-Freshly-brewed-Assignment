@@ -1,0 +1,58 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 16.6vh;
+  /* padding: 0 5vw; */
+}
+
+.testimonial > h2 {
+  width: 35vw;
+  text-align: center;
+  margin-bottom: 11vh;
+}
+.grid-outer {
+  width: 100%;
+  background: var(--bg);
+  overflow-x: scroll;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(11, 10vw);
+  row-gap: 7.8vh;
+  column-gap: 3.9vw;
+  width: max-content;
+  margin-bottom: 3vh;
+}
+
+.grid-element {
+  grid-column: span 3;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.6vw;
+  border-radius: 25px;
+  background: #fff;
+  padding: 6.6vh 5vw;
+}
+
+.grid-element > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4vw;
+}
+
+::-webkit-scrollbar {
+  /* width: 3px; */
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  /* width: 200px; */
+  background-color: var(--accent-blue);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}

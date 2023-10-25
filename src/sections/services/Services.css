@@ -1,0 +1,40 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 16.6vh;
+  padding: 0 5vw;
+}
+
+.services > h2 {
+  margin-bottom: 11vh;
+  width: 55.2vw;
+  text-align: center;
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.8vw;
+  margin-bottom: 9.4vh;
+}
+
+.service {
+  text-align: center;
+  border-radius: 25px;
+  background: #fff;
+  padding: 7.2vh 3.3vw;
+}
+
+.service > img {
+  margin-bottom: 2vh;
+  height: 64px;
+  width: 64px;
+}
+
+.service > h5 {
+  /* width: 8vw; */
+  padding: 0 2vw;
+  margin-bottom: 3.2vh;
+}

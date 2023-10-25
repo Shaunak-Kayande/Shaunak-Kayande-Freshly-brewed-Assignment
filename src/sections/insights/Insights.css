@@ -1,0 +1,43 @@
+.insights {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 16.6vh;
+  padding: 0 5vw;
+}
+
+.insights > h2 {
+  text-align: center;
+  margin-bottom: 11vh;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.9vw;
+}
+
+.article {
+  border-radius: 25px;
+  background: #fff;
+  text-align: center;
+  width: 27.4vw;
+  padding-bottom: 4.4vh;
+}
+
+.article > img {
+  width: 100%;
+  margin-bottom: 3.7vh;
+}
+
+.article > h5 {
+  margin-bottom: 3.7vh;
+  padding: 0 5.3vw;
+}
+
+.article > p {
+  margin-bottom: 5.8vh;
+  padding: 0 4.7vw;
+}

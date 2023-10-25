@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Mulish&family=Ubuntu&display=swap");
+
+:root {
+  font-family: "Ubuntu", sans-serif;
+
+  --accent-pink: #ff3c8a;
+  --accent-blue: #008bd8;
+  --bg: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+p,
+div,
+span {
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  font-weight: normal;
+  color: var(--accent-blue);
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: black;
+}
+
+button {
+  border: none;
+  border-radius: 100px;
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+}

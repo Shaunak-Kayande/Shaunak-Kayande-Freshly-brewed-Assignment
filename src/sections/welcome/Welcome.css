@@ -1,0 +1,50 @@
+.welcome {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16.6vh;
+  padding: 0 5vw;
+  gap: 5vw;
+}
+
+.welcome-content {
+  flex: 2;
+}
+
+.welcome-content > h2 {
+  margin-bottom: 5.4vh;
+}
+.welcome-content > p {
+  margin-bottom: 13.6vh;
+}
+
+.welcome-img {
+  flex: 2;
+  border-radius: 210.5px 210.5px 50px 50px;
+  background: #ff3c8a;
+  padding: 100px 32px 0 32px;
+}
+
+.welcome-img > img {
+  width: 357px;
+  height: 548px;
+  border-radius: 210.5px 210.5px 50px 50px;
+}
+
+.mission {
+  flex: 3;
+}
+
+.mission > h3 {
+  margin-bottom: 2.3vh;
+}
+
+.stats {
+  margin-top: 7.8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vw;
+  text-align: center;
+}

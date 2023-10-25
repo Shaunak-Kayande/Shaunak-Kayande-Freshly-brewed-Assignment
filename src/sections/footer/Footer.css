@@ -1,0 +1,49 @@
+.footer {
+  height: 100vh;
+  width: 100%;
+  background: var(--accent-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  color: #fff;
+}
+
+.description {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 5.4vh;
+}
+
+.description > h3,
+.description > p,
+.quick-links > h4,
+.quick-links > p,
+.course-links > h4,
+.course-links > p,
+.links > p {
+  color: #fff;
+}
+
+.quick-links,
+.course-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5.4vh;
+  height: 50%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6vh;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.8vw;
+}
